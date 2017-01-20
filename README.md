@@ -77,6 +77,7 @@ In P4.04.ipynb, a Line class was created to track a moving average of the line f
 The general process for tracking lines from a video file involved processing the video frame by frame and updating the global Line objects based on curves fitted from each frame.
 
 The steps of the process are:
+
 1. Undistort the camera image
 2. Apply the gradient and color thresholds to give a binary image
 3. Transform the perspective to birds eye view
