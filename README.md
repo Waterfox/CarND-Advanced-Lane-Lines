@@ -1,13 +1,17 @@
-Udacity CarND P4 Advanced Lane Lines Project
+## Udacity CarND P4 Advanced Lane Lines Project
 
 The main file for this project is P4_0.4.ipynb. This notebook loads in pickle files and has functions copied in from other notebooks where the processes for each step of the project were developed and tuned. Tweaks to each step may have been added in the final P4_0.4 file. 
+
+The final project output file is proj6.mp4
+and on youtube
+https://www.youtube.com/watch?v=-94d1Z6pmCs
 
 ##Camera Calibration
 
 Camera_calibrate_tune0.1.ipynb uses the chessboard calibration images to calculate the maxtrix and coefficients used to undistort the camera images. The variables are saved into camera_cal.p. An example of an undistored chessboard is included in the notebook and in:
 
-/results_imgs/uncalibrated.png
-/results_imgs/calibrated.png
+![alt tag](/results_imgs/uncalibrated.png)
+![alt tag](/results_imgs/calibrated.png)
 
 ##Color and Gradient Thresholding
 
