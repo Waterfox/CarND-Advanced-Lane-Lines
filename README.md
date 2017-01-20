@@ -96,8 +96,8 @@ The steps of the process are:
 9. Draw the lines and polygones and transform them back to image space.
 10. Combine the Polygons to the image and add information such as curvature, confidence and distance from the lane center using the add_info function.
 
-![alt tag](/results_imgs/left_mask.png)
-![alt tag](/results_imgs/right_mask.png)
+![alt tag](/results_imgs/mask_left.png)
+![alt tag](/results_imgs/mask_right.png)
 
 Some of the key parameters in this process were:
 the moving average size, n=6
