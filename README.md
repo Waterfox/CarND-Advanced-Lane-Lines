@@ -58,7 +58,7 @@ The window function used for convolution and an example output line taken across
 
 ![alt tag](/results_imgs/matched_filter_img.png)
 ![alt tag](/results_imgs/window.png)
-![alt tag](/results_imgs/matched_filter_line.png)
+![alt tag](/results_imgs/match_filter_line.png)
 
 A second order polynomial was fit to each of these points based on which side of the image they fell on. Perhaps something better could have been done here, such as adding a point to a group (left or right lane) based on proximity to other points. The output points,fitted curves and coresponding polygones are given in the following images:
 
