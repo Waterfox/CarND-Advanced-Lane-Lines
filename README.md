@@ -114,11 +114,17 @@ Evidence of the moving average values of the lines were apparent in some cases, 
 Outputs for 2 confidence levels are found in: proj6.mp4 and proj5.mp4
 An output video for an untracked line (frame by frame line detection) is found in proj.mp4
 
+![alt tag](/results_imgs/output_img.png)
+
+In retrospect, I wish I scaled the confidence value shown rather than putting the current max value "24" on the video.
+
 #Challenge videos
 
 The filter is useless when applied towards the challenge videos as seen in proj_challenge.mp4. Detailed debugging would be required and this would involve creating video output of each stage of the detection process. I had technical difficulties getting moviepy to output data such as the warped image with line fits applied in attempt to debug. I tried saving the video into memory by appending frames to a global list using the moviepy fl_image function but processing these and saving them back into a video required too much memory. This output would have been highly useful for visualizing where the filter is failing.
 
 I suspect succeeding at these videos would mostly involve detailed tuning and small incremental improvements of the current process based on visual movie feedback. The current system seems to fail at identifying the lines at all, most of the improvement would likely involve improving line identification. There are not any obvious additional methods I'm aware of that could augment the process besides additional tuning.
+
+
 
 #Improvements
 
